@@ -1,7 +1,7 @@
-    <!-- Login script -->
+    <!--Script de inicio de sesión-->
     <?php include('controllers/login.php'); ?>
 
-    <!-- Login form -->
+    <!--Formulario de inicio de sesión-->
                 <form action="" method="post">
                     <h3>Login</h3>
 

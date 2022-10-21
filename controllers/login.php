@@ -44,7 +44,7 @@
                 $password = password_verify($password_signin, $pass_word);
 
                 if($email_signin == $email && $password_signin == $password) {
-                   header("Location: Bienvenido.php");
+                   header("Location: cuenta.php");
                    
                    $_SESSION['id'] = $id;
                    $_SESSION['firstname'] = $firstname;
