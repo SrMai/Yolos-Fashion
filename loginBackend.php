@@ -2,10 +2,6 @@
     <?php include('controllers/login.php'); ?>
 
     <!-- Login form -->
-    <div class="App">
-        <div class="vertical-center">
-            <div class="inner-block">
-
                 <form action="" method="post">
                     <h3>Login</h3>
 
@@ -21,14 +17,10 @@
                     </div>
 
                     <div class="form-group">
-                        <label>Password</label>
+                        <label>Contraseña</label>
                         <input type="password" class="form-control" name="password_signin"
                             id="password_signin" />
                     </div>
 
-                    <button type="submit" name="login" id="sign_in" class="btn btn-outline-primary btn-lg btn-block">Sign
-                        in</button>
+                    <button type="submit" name="login" id="sign_in" class="btn btn-outline-primary btn-lg btn-block">Iniciar sesiòn</button>
                 </form>
-            </div>
-        </div>
-    </div>
