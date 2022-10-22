@@ -1,0 +1,187 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background:#F9E4D4; 
+}   
+
+/*------------------------------Header------------------------------------*/
+.header-menu{
+    background-color: #9c0f48;
+    height: 100px;
+}
+.opcion-header ul li a{
+    color: #F9E4D4;
+}
+.header-menu > a{
+    height: 100px;
+    background-color: #F9E4D4;
+    position: relative;
+}
+.lista-menu{
+    background-color: #470D21;
+}
+.lista-menu li a{
+    color: #F9E4D4;
+}
+.Sesion{
+    border: 1px solid #F9E4D4 ;
+    width: 150px;
+}
+.Sesion a{
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    color: #F9E4D4;
+}
+.Sesion h1{
+    margin-top: 5%;
+    font-size: 20px;
+}
+.Sesion:hover{
+    background-color: #F9E4D4;
+}
+.Sesion a:hover{
+    color: #470D21;
+}
+/*Login*/
+
+.registro {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9E4D4;
+}
+.Login-div {
+    width: 50%;
+    height: 50%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 40px;
+    background-color: #9c0f48;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9) ;
+}
+.logo1 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: round;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.title {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 5px;
+    letter-spacing: 0.5px;
+    color: #F9E4D4;
+    margin-bottom: 10px;
+}
+.fields{
+    width: 100%;
+    color: #F9E4D4;
+}
+.fields input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #F9E4D4;
+    padding: 20px 10px 20px 5px;
+}
+.username, .password {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    border-radius: 25px;
+    color: #F9E4D4;
+    border: 3px solid #F9E4D4;
+}
+.fields i{
+    margin: 5px 10px -3px 25px;
+}
+.signin-button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #F9E4D4;
+    text-align: center;
+    background-color: #470D21;
+    font-family: 'Times New Roman', sans-serif;
+    text-transform: uppercase;
+    transition: all .5s;
+}
+.signin-button:hover {
+    background: #F9E4D4;
+    color: #470D21;
+}
+.link {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.link a {
+    text-decoration: none;
+    color: #F9E4D4;
+    font-size: 15px;
+}
+.link a:hover{
+    color: #470D21;
+}
+
+/*Registro*/
+
+.datos{
+    display: flex;
+    width: 100%;
+}
+.nombre{
+    width: 235px;
+    border: 3px solid #F9E4D4;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    color: #F9E4D4;
+    border-radius: 20px;
+}
+.apellido{
+    width: 235px;
+    border: 3px solid #F9E4D4;
+    margin-left: 0%;
+    margin-right: 30%;
+    margin-bottom: 3%;
+    border-radius: 20px;
+}
+.correo{
+    border: 3px solid #F9E4D4;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    border-radius: 20px;
+}
+.numero{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    border-radius: 25px;
+    color: #F9E4D4;
+    border: 3px solid #F9E4D4;
+}

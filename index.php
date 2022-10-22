@@ -35,10 +35,10 @@
               <a class="nav-link" aria-current="page" href="#" style="color: #F9E4D4;">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" style="color: #F9E4D4;">Productos</a>
+              <a class="nav-link" href="#productos" style="color: #F9E4D4;">Productos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" style="color: #F9E4D4;">Temporada</a>
+              <a class="nav-link" href="#temporada" style="color: #F9E4D4;">Temporada</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -53,6 +53,9 @@
               </ul>
             </li>
           </ul>
+        </div>
+        <div class="Sesion">
+          <a href="login.php"><h1>Iniciar Sesión</h1></a>
         </div>
       </div>
     </nav>
@@ -166,7 +169,7 @@
       Rebajas de temporada
       =================================
     -->
-    <div class="ofertas">
+    <div class="ofertas" id="temporada">
       <div class="row"><h1 class="titulo-ofertas">Ofertas de Temporada</h1></div>
       <div class="cards-ofertas justify-content-center">
         <div class="row justify-content-evenly">
@@ -186,7 +189,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>199<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -207,7 +210,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>249<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -228,7 +231,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>899<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -241,7 +244,7 @@
       Productos
       =================================
     -->
-    <div class="productos">
+    <div class="productos" id="productos">
       <div class="row"><h1 class="titulo-producto">Productos</h1></div>
       <div class="cards-productos justify-content-center p-3">
         <!-- Productos: Blusas -->
@@ -261,7 +264,7 @@
                   </ul>
                   <div class="precio">
                     <h2><sup>$</sup>249<small>.99</small></h2>
-                    <a href="#"><h1>Agregar al carrito</h1></a>
+                    <a href="#"><h1>Comprar</h1></a>
                   </div>
                 </div>
               </div>
@@ -280,7 +283,7 @@
                   </ul>
                   <div class="precio">
                     <h2><sup>$</sup>349<small>.99</small></h2>
-                    <a href="#"><h1>Agregar al carrito</h1></a>
+                    <a href="#"><h1>Comprar</h1></a>
                   </div>
                 </div>
               </div>
@@ -299,7 +302,7 @@
                   </ul>
                   <div class="precio">
                     <h2><sup>$</sup>449<small>.99</small></h2>
-                    <a href="#"><h1>Agregar al carrito</h1></a>
+                    <a href="#"><h1>Comprar</h1></a>
                   </div>
                 </div>
               </div>
@@ -320,7 +323,7 @@
                   </ul>
                   <div class="precio">
                     <h2><sup>$</sup>229<small>.99</small></h2>
-                    <a href="#"><h1>Agregar al carrito</h1></a>
+                    <a href="#"><h1>Comprar</h1></a>
                   </div>
                 </div>
               </div>
@@ -339,7 +342,7 @@
                   </ul>
                   <div class="precio">
                     <h2><sup>$</sup>339<small>.99</small></h2>
-                    <a href="#"><h1>Agregar al carrito</h1></a>
+                    <a href="#"><h1>Comprar</h1></a>
                   </div>
                 </div>
               </div>
@@ -358,7 +361,7 @@
                   </ul>
                   <div class="precio">
                     <h2><sup>$</sup>279<small>.99</small></h2>
-                    <a href="#"><h1>Agregar al carrito</h1></a>
+                    <a href="#"><h1>Comprar</h1></a>
                   </div>
                 </div>
               </div>
@@ -379,7 +382,7 @@
                   </ul>
                   <div class="precio">
                     <h2><sup>$</sup>399<small>.99</small></h2>
-                    <a href="#"><h1>Agregar al carrito</h1></a>
+                    <a href="#"><h1>Comprar</h1></a>
                   </div>
                 </div>
               </div>
@@ -398,7 +401,7 @@
                   </ul>
                   <div class="precio">
                     <h2><sup>$</sup>249<small>.99</small></h2>
-                    <a href="#"><h1>Agregar al carrito</h1></a>
+                    <a href="#"><h1>Comprar</h1></a>
                   </div>
                 </div>
               </div>
@@ -417,7 +420,7 @@
                   </ul>
                   <div class="precio">
                     <h2><sup>$</sup>199<small>.99</small></h2>
-                    <a href="#"><h1>Agregar al carrito</h1></a>
+                    <a href="#"><h1>Comprar</h1></a>
                   </div>
                 </div>
               </div>
@@ -440,7 +443,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>349<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -459,7 +462,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>229<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -478,7 +481,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>249<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -499,7 +502,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>389<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -518,7 +521,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>249<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -537,7 +540,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>349<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -558,7 +561,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>449<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -577,7 +580,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>239<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -596,7 +599,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>219<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -619,7 +622,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>499<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -638,7 +641,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>489<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -657,7 +660,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>459<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -678,7 +681,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>549<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -697,7 +700,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>529<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -716,7 +719,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>419<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -737,7 +740,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>399<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -756,7 +759,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>449<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -775,7 +778,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>489<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -798,7 +801,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>449<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -817,7 +820,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>549<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -836,7 +839,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>349<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -857,7 +860,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>349<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -876,7 +879,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>549<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -895,7 +898,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>349<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -916,7 +919,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>449<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -935,7 +938,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>349<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -954,7 +957,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>649<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -977,7 +980,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>399<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -996,7 +999,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>1,899<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -1015,7 +1018,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>1,500<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -1036,7 +1039,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>1,599<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -1055,7 +1058,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>1,999<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -1074,7 +1077,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>789<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -1095,7 +1098,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>1,249<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -1114,7 +1117,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>949<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -1133,7 +1136,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>849<small>.99</small></h2>
-                  <a href="#"><h1>Agregar al carrito</h1></a>
+                  <a href="#"><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
