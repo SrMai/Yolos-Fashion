@@ -1,6 +1,5 @@
 <?php
 include('config/db.php');
-$email1 = $_SESSION['email'];
 $sqlQuery = mysqli_query($connection, "SELECT * FROM users WHERE email = 'carlosadrian.cg2@gmail.com' ");
 $countRow = mysqli_num_rows($sqlQuery);
 while($rowData = mysqli_fetch_array($sqlQuery)){
@@ -54,7 +53,6 @@ if(isset($_POST["submit"])) {
     $sql = "UPDATE users SET firstname='{$firstname}', lastname='{$lastname}', email='{$email}', mobilenumber='{$mobilenumber}', edad='{$edad}', 
     cp='{$cp}', numero2='{$numero2}', calle='{$calle}', entreCalles='{$entreCalles}', colonia='{$colonia}', interior='{$interior}', 
     exterior='{$exterior}' WHERE email = 'carlosadrian.cg2@gmail.com'";
-
     $sqlQuery = mysqli_query($connection, $sql);
 
     header("Location: cuenta.php");

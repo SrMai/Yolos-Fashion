@@ -72,6 +72,8 @@
                     
                     $sqlQuery = mysqli_query($connection, $sql);
                     
+
+                    header("Location: login.php");
                     if(!$sqlQuery){
                         die("MySQL query failed!" . mysqli_error($connection));
                     } 

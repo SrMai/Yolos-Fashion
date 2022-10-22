@@ -77,28 +77,16 @@
         <div class="carousel-item active">
           <img src="assets/img/carrusel.jpg" class="d-block w-100" alt="slider">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Lorem ipsum dolor</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolores sint iure cupiditate commodi
-              recusandae reiciendis, deserunt consectetur odio vel autem perspiciatis maxime eos possimus amet
-              repudiandae exercitationem eum error..</p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="assets/img/carrusel.jpg" class="d-block w-100" alt="slider">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Lorem ipsum dolor</h5>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident doloribus distinctio facilis vitae,
-              dignissimos nihil maiores eos earum maxime in ad odit magni doloremque culpa amet aperiam quam vero
-              delectus?.</p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="assets/img/carrusel.jpg" class="d-block w-100" alt="slider">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Lorem ipsum dolor</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem suscipit labore nobis inventore molestiae
-              repellendus incidunt laboriosam, obcaecati quia, libero deleniti velit facilis doloremque praesentium odio
-              ex accusantium officiis minima?.</p>
           </div>
         </div>
       </div>
@@ -189,7 +177,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>199<small>.99</small></h2>
-                  <a href="#"><h1>Comprar</h1></a>
+                  <a href="cartBackend.php?Producto=CAMISA+CORTA+JUVENIL&Precio=199.99&Direccion=Vascos+1189&CpNumber=44220&Referencias=N%2FA&submit="><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>
@@ -210,7 +198,7 @@
                 </ul>
                 <div class="precio">
                   <h2><sup>$</sup>249<small>.99</small></h2>
-                  <a href="#"><h1>Comprar</h1></a>
+                  <a href="cartBackend.php?Producto=Camisa juvenil&Precio=249&Direccion=Vascos+1189&CpNumber=44220&Referencias=N%2FA&submit="><h1>Comprar</h1></a>
                 </div>
               </div>
             </div>

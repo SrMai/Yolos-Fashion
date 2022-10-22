@@ -22,6 +22,7 @@ if(isset($_GET["submit"])) {
             $sql = "INSERT INTO compras (Producto, Precio, Direccion, CpNumber, Referencias, EstadoPago, Total, date_time)
             VALUES ('{$Producto}', '{$Precio}', '{$Direccion}', '{$CpNumber}', '{$Referencias}', '1', '{$Precio}', now())";
             $sqlQuery = mysqli_query($connection, $sql);
+            header("Location: index.php");
             if(!$sqlQuery){
                 die("MySQL query failed!" . mysqli_error($connection));
             } 
