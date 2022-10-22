@@ -9,45 +9,58 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel='dns-prefetch' href='//s.w.org' />
+  <script src="https://kit.fontawesome.com/379358f3a7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/index.css">
 </head>
 
 <body>
   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
+    <!--
+      =================================
+      Menu Header
+      =================================
+    -->
+    <nav class="navbar navbar-expand-xl navbar-light bg-light">
+      <div class="container-fluid header-menu">
         <a class="navbar-brand" href="#">
-          <img src="assets/img/logo.png" alt="" width="90" height="90" class="d-inline-block align-text-top">
+          <img src="assets/img/Logo2.png" alt="" width="90" height="90" class="d-inline-block align-text-top logo-header">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="collapse navbar-collapse header-opcion" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link" aria-current="page" href="#" style="color: #F9E4D4;">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Productos</a>
+              <a class="nav-link" href="#" style="color: #F9E4D4;">Productos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Temporada</a>
+              <a class="nav-link" href="#" style="color: #F9E4D4;">Temporada</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
+                data-bs-toggle="dropdown" aria-expanded="false" style="color: #F9E4D4;">
                 Categorias
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Sueteres</a></li>
-                <li><a class="dropdown-item" href="#">Blusas</a></li>
-                <li><a class="dropdown-item" href="#">Calzado</a></li>
+              <ul class="dropdown-menu lista-menu" aria-labelledby="navbarDropdownMenuLink">                
+                <li><a class="dropdown-item" href="#blusa">Blusa</a></li>
+                <li><a class="dropdown-item" href="#Vestido">Vestido</a></li>
+                <li><a class="dropdown-item" href="#Sudadera">Sudadera</a></li>                       
+                <li><a class="dropdown-item" href="#Mezclilla">Pantalones</a></li>
               </ul>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <!--
+      =================================
+      CARRUSEL
+      =================================
+    -->
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -99,106 +112,1035 @@
     </div>
     <!--
       =================================
+      Categorias
+      =================================
+    -->
+    <div class="categorias">
+      <div class="row">
+        <div class="col-md-12"><h1 class="Titulo_categorias">Categorias</h1></div>
+      </div>
+      <div class="cards-categorias justify-content-center">
+        <div class="row p-3">    
+
+          <div class="col-md-3">
+            <div class="card-categoria">
+              <a href="#blusa" class="categorias">
+                <i class="fas fa-tshirt"></i>
+                <p>Blusas</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card-categoria">
+              <a href="#Vestido">
+                <i class="fas fa-tshirt"></i>
+                <p>Vestidos</p>
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-md-3">
+            <div class="card-categoria">
+              <a href="#Sudadera">
+                <i class="fas fa-tshirt"></i>
+                <p>Sudaderas</p>
+              </a>
+            </div>
+          </div>
+        
+          <div class="col-md-3">
+            <div class="card-categoria">
+              <a href="#Mezclilla">
+                <i class="fas fa-tshirt"></i>
+                <p>Pantalones</p>
+              </a>
+            </div>
+          </div>
+
+        </div>        
+      </div>
+    </div>
+    <!--
+      =================================
       Rebajas de temporada
       =================================
     -->
-    <h1 class="display-6">Rebajas de temporada</h1>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <img src="assets/img/200px.png" style="border-radius: 100%;" alt="...">
-      <img src="assets/img/200px.png" style="border-radius: 100%;" alt="...">
-      <img src="assets/img/200px.png" style="border-radius: 100%;" alt="...">
-      <img src="assets/img/200px.png" style="border-radius: 100%;" alt="...">
-      
+    <div class="ofertas">
+      <div class="row"><h1 class="titulo-ofertas">Ofertas de Temporada</h1></div>
+      <div class="cards-ofertas justify-content-center">
+        <div class="row justify-content-evenly">
+          <div class="col-md-3 of">
+            <div class="card-temporada">
+              <div class="card-imagen">
+                <div class="letrero"></div>               
+              </div>
+              <div class="card-info">
+                <h2>Camisa corta juvenil</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>199<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 of" >
+            <div class="card-temporada">
+              <div class="card-imagen" style="background-image:url(assets/img/mercancia/Camisa8.jpg);">
+                <div class="letrero"></div>                
+              </div>
+              <div class="card-info">
+                <h2>Camisa juvenil</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>249<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 of1">
+            <div class="card-temporada">
+              <div class="card-imagen" style="background-image:url(assets/img/mercancia/Vestido10.jpg);">
+                <div class="letrero"></div>                
+              </div>
+              <div class="card-info">
+                <h2>Vestido juvenil Casual</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>899<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <!--
-      ////=================================
-      //Rebajas de temporada
-      ////=================================
-    -->
     <!--
       =================================
       Productos
       =================================
     -->
-    <h1 class="display-6 text-center">Productos</h1>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
-        <div class="card h-100">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="140" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image
-              cap</text>
-          </svg>
-          <!--
-        <img src="assets/img/productos/01.jpg" class="card-img-top" alt="Card title">
-      -->
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.</p>
+    <div class="productos">
+      <div class="row"><h1 class="titulo-producto">Productos</h1></div>
+      <div class="cards-productos justify-content-center p-3">
+        <!-- Productos: Blusas -->
+        <div class="blusas" id="blusa">
+          <div class="row justify-content-evenly p-3">
+            <div class="col-md-3 of">
+              <div class="card-producto">
+                <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Blusa1.jpg);"></div>
+                <div class="card-info">
+                  <h2 style="font-size:25px;">Blusa juvenil</h2>
+                  <h4>Talla</h4>
+                  <ul class="size">
+                    <li>xs</li>
+                    <li>s</li>
+                    <li>m</li>
+                    <li>l</li>
+                  </ul>
+                  <div class="precio">
+                    <h2><sup>$</sup>249<small>.99</small></h2>
+                    <a href="#"><h1>Agregar al carrito</h1></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 of">
+              <div class="card-producto">
+                <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Blusa3.jpg);"></div>
+                <div class="card-info">
+                  <h2 style="font-size:25px;">Blusa juvenil</h2>
+                  <h4>Talla</h4>
+                  <ul class="size">
+                    <li>xs</li>
+                    <li>s</li>
+                    <li>m</li>
+                    <li>l</li>
+                  </ul>
+                  <div class="precio">
+                    <h2><sup>$</sup>349<small>.99</small></h2>
+                    <a href="#"><h1>Agregar al carrito</h1></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 of1">
+              <div class="card-producto">
+                <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Blusa4.jpg);"></div>
+                <div class="card-info">
+                  <h2 style="font-size:25px;">Blusa juvenil</h2>
+                  <h4>Talla</h4>
+                  <ul class="size">
+                    <li>xs</li>
+                    <li>s</li>
+                    <li>m</li>
+                    <li>l</li>
+                  </ul>
+                  <div class="precio">
+                    <h2><sup>$</sup>449<small>.99</small></h2>
+                    <a href="#"><h1>Agregar al carrito</h1></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-evenly p-3">
+            <div class="col-md-3 of">
+              <div class="card-producto">
+                <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Blusa10.jpg);"></div>
+                <div class="card-info">
+                  <h2 style="font-size:25px;">Blusa juvenil</h2>
+                  <h4>Talla</h4>
+                  <ul class="size">
+                    <li>xs</li>
+                    <li>s</li>
+                    <li>m</li>
+                    <li>l</li>
+                  </ul>
+                  <div class="precio">
+                    <h2><sup>$</sup>229<small>.99</small></h2>
+                    <a href="#"><h1>Agregar al carrito</h1></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 of">
+              <div class="card-producto">
+                <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Blusa5.jpg);"></div>
+                <div class="card-info">
+                  <h2 style="font-size:25px;">Blusa juvenil</h2>
+                  <h4>Talla</h4>
+                  <ul class="size">
+                    <li>xs</li>
+                    <li>s</li>
+                    <li>m</li>
+                    <li>l</li>
+                  </ul>
+                  <div class="precio">
+                    <h2><sup>$</sup>339<small>.99</small></h2>
+                    <a href="#"><h1>Agregar al carrito</h1></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 of1">
+              <div class="card-producto">
+                <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Blusa6.jpg);"></div>
+                <div class="card-info">
+                  <h2 style="font-size:25px;">Blusa juvenil</h2>
+                  <h4>Talla</h4>
+                  <ul class="size">
+                    <li>xs</li>
+                    <li>s</li>
+                    <li>m</li>
+                    <li>l</li>
+                  </ul>
+                  <div class="precio">
+                    <h2><sup>$</sup>279<small>.99</small></h2>
+                    <a href="#"><h1>Agregar al carrito</h1></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-evenly p-3">
+            <div class="col-md-3 of">
+              <div class="card-producto">
+                <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Blusa7.jpg);"></div>
+                <div class="card-info">
+                  <h2 style="font-size:25px;">Blusa juvenil</h2>
+                  <h4>Talla</h4>
+                  <ul class="size">
+                    <li>xs</li>
+                    <li>s</li>
+                    <li>m</li>
+                    <li>l</li>
+                  </ul>
+                  <div class="precio">
+                    <h2><sup>$</sup>399<small>.99</small></h2>
+                    <a href="#"><h1>Agregar al carrito</h1></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 of">
+              <div class="card-producto">
+                <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Blusa8.jpg);"></div>
+                <div class="card-info">
+                  <h2 style="font-size:25px;">Blusa juvenil</h2>
+                  <h4>Talla</h4>
+                  <ul class="size">
+                    <li>xs</li>
+                    <li>s</li>
+                    <li>m</li>
+                    <li>l</li>
+                  </ul>
+                  <div class="precio">
+                    <h2><sup>$</sup>249<small>.99</small></h2>
+                    <a href="#"><h1>Agregar al carrito</h1></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 of1">
+              <div class="card-producto">
+                <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Blusa9.jpg);"></div>
+                <div class="card-info">
+                  <h2 style="font-size:25px;">Blusa juvenil</h2>
+                  <h4>Talla</h4>
+                  <ul class="size">
+                    <li>xs</li>
+                    <li>s</li>
+                    <li>m</li>
+                    <li>l</li>
+                  </ul>
+                  <div class="precio">
+                    <h2><sup>$</sup>199<small>.99</small></h2>
+                    <a href="#"><h1>Agregar al carrito</h1></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="140" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image
-              cap</text>
-          </svg>
-          <!--
-        <img src="assets/img/productos/01.jpg" class="card-img-top" alt="Card title">
-      -->
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a short card.</p>
+        <!-- Productos: Camisa -->
+        <div class="row justify-content-evenly p-3">
+          <div class="col-md-3 of">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/camisa.jpeg);"></div>
+              <div class="card-info">
+                <h2>Camisa juvenil</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>349<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 of">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Camisa4.jpg);"></div>
+              <div class="card-info">
+                <h2>Camisa juvenil</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>229<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 of1">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Camisa2.jpg);"></div>
+              <div class="card-info">
+                <h2>Camisa juvenil</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>249<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="140" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image
-              cap</text>
-          </svg>
-          <!--
-        <img src="assets/img/productos/01.jpg" class="card-img-top" alt="Card title">
-      -->
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-              content.</p>
+        <div class="row justify-content-evenly p-3">
+          <div class="col-md-3 of">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Camisa5.jpg);"></div>
+              <div class="card-info">
+                <h2>Camisa juvenil</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>389<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 of">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Camisa1.jpg);"></div>
+              <div class="card-info">
+                <h2>Camisa juvenil</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>249<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 of1">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Camisa3.jpg);"></div>
+              <div class="card-info">
+                <h2>Camisa juvenil</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>349<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="140" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image
-              cap</text>
-          </svg>
-          <!--
-        <img src="assets/img/productos/01.jpg" class="card-img-top" alt="Card title">
--->
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.</p>
+        <div class="row justify-content-evenly p-3">
+          <div class="col-md-3 of">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Camisa6.jpg);"></div>
+              <div class="card-info">
+                <h2>Camisa juvenil</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>449<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 of">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Camisa7.jpg);"></div>
+              <div class="card-info">
+                <h2>Camisa juvenil</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>239<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 of1">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Camisa9.jpg);"></div>
+              <div class="card-info">
+                <h2>Camisa juvenil</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>219<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        <!-- Productos: Pantalones -->
+        <div class="Pantalones" id="Mezclilla"></div>
+        <div class="row justify-content-evenly p-3">
+          <div class="col-md-3 of">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Pantalon3.jpg);"></div>
+              <div class="card-info">
+                <h2>Pantalon Elegante para Dama</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>499<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 of">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Pantalon.jpg);"></div>
+              <div class="card-info">
+                <h2>Pantalon Dama</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>489<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 of1">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Pantalon2.jpg);"></div>
+              <div class="card-info">
+                <h2>Pantalon Juvenil</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>459<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-evenly p-3">
+          <div class="col-md-3 of">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Pantalon4.jpg);"></div>
+              <div class="card-info">
+                <h2>Pantalon Elegante para Dama</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>549<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 of">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Pantalon5.jpg);"></div>
+              <div class="card-info">
+                <h2>Pantalon Elegante para Dama</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>529<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 of1">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Pantalon6.jpg);"></div>
+              <div class="card-info">
+                <h2>Pantalon juvenil</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>419<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-evenly p-3">
+          <div class="col-md-3 of">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Pantalon7.jpg);"></div>
+              <div class="card-info">
+                <h2>Pantalon Mezclila Dama</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>399<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 of">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Pantalon8.jpg);"></div>
+              <div class="card-info">
+                <h2>Pantalon Dama</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>449<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 of1">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Pantalon9.jpg);"></div>
+              <div class="card-info">
+                <h2>Pantalon Dama</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>489<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Productos: Sudaderas -->
+        <div class="sudadera" id="Sudadera"></div>
+        <div class="row justify-content-evenly p-3">
+          <div class="col-md-3 of">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Sudadera.jpg);"></div>
+              <div class="card-info">
+                <h2>Sudadera Juvenil</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>449<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 of">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/sudadera.jpeg);"></div>
+              <div class="card-info">
+                <h2>Sudadera Mikie Mouse</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>549<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 of1">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/sudadera2.jpeg);"></div>
+              <div class="card-info">
+                <h2>Sudadera Dumbo</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>349<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>        
+        <div class="row justify-content-evenly p-3">
+          <div class="col-md-3 of">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Sudadera2.jpg);"></div>
+              <div class="card-info">
+                <h2>Sudadera Juvenil</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>349<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 of">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/sudadera3.jpeg);"></div>
+              <div class="card-info">
+                <h2>Sudadera Demon Slayer</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>549<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 of1">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Sudadera3.jpg);"></div>
+              <div class="card-info">
+                <h2>Sudadera juvenil</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>349<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+        <div class="row justify-content-evenly p-3">
+          <div class="col-md-3 of">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Sudadera4.jpg);"></div>
+              <div class="card-info">
+                <h2>Sudadera Puerquito</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>449<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 of">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Sudadera5.jpg);"></div>
+              <div class="card-info">
+                <h2>Sudadera Roja</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>349<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 of1">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Sudadera6.jpg);"></div>
+              <div class="card-info">
+                <h2>Sudadera Stich juvenil</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>649<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+        <!-- Productos: Vestidos -->
+        <div class="Vestido" id="Vestido"></div>
+        <div class="row justify-content-evenly p-3">
+          <div class="col-md-3 of">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Vestido.jpg);"></div>
+              <div class="card-info">
+                <h2>Vestido Casual</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>399<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 of">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/vestido.jpeg);"></div>
+              <div class="card-info">
+                <h2>Vestido de Fiesta Elegante</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>1,899<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 of1">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Vestido2.jpg);"></div>
+              <div class="card-info">
+                <h2>Vestido Entallado de Fiesta</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>1,500<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+        <div class="row justify-content-evenly p-3">
+          <div class="col-md-3 of">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Vestido3.jpg);"></div>
+              <div class="card-info">
+                <h2>vestido de Fiesta</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>1,599<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 of">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/vestido3.jpeg);"></div>
+              <div class="card-info">
+                <h2>Vestido Fiesta</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>1,999<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 of1">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Vestido4.jpg);"></div>
+              <div class="card-info">
+                <h2>Vestido Entallado</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>789<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+        <div class="row justify-content-evenly p-3">
+          <div class="col-md-3 of">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Vestido5.jpg);"></div>
+              <div class="card-info">
+                <h2>Vestido Elegante</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>1,249<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 of">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Vestido6.jpg);"></div>
+              <div class="card-info">
+                <h2>Vestido Fiesta Casual</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>949<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 of1">
+            <div class="card-producto">
+              <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Vestido7.png);"></div>
+              <div class="card-info">
+                <h2>Vestido juvenil Casual</h2>
+                <h4>Talla</h4>
+                <ul class="size">
+                  <li>xs</li>
+                  <li>s</li>
+                  <li>m</li>
+                  <li>l</li>
+                </ul>
+                <div class="precio">
+                  <h2><sup>$</sup>849<small>.99</small></h2>
+                  <a href="#"><h1>Agregar al carrito</h1></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
       </div>
     </div>
-    <!--
-      ////=================================
-      //Productos
-      ////=================================
-    -->
   </div>
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

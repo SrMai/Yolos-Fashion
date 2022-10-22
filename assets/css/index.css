@@ -1,0 +1,268 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background:#F9E4D4; 
+}   
+
+/*------------------------------Header------------------------------------*/
+.header-menu{
+    background-color: #9c0f48;
+    height: 100px;
+}
+.opcion-header ul li a{
+    color: #F9E4D4;
+}
+.header-menu > a{
+    height: 100px;
+    background-color: #F9E4D4;
+    position: relative;
+}
+.lista-menu{
+    background-color: #470D21;
+}
+.lista-menu li a{
+    color: #F9E4D4;
+}
+
+/*------------------------------Categorias--------------------------------*/
+
+.Titulo_categorias{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+    color: #470D21;
+}
+a .cat{
+    list-style: none;
+}
+.cards-categorias{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.card-categoria{
+    display: flex;
+    width: 200px;
+    height: 90px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: #9c0f48;
+}
+.card-categoria a{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+}
+.card-categoria a p{
+    margin-top: 10%;
+    margin-left: 15%;
+    text-align: center;
+    color: #F9E4D4;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.card-categoria a i{
+    margin-left: 5%;
+    color: #F9E4D4;
+    font-size: 20px;
+}
+
+/*--------------------------Ofertas de Temporada----------------------------------*/
+
+.titulo-ofertas{
+    text-align: center;
+    color: #470D21;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.cards-ofertas{
+    width: 100%;
+    height: 100%;
+}
+.card-temporada{
+    width: 250px;
+    height: 280px;
+    overflow: hidden;
+    display: flex;
+    background: black;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+.card-imagen{
+    min-width: 250px;
+    border-radius: 20px 0 0 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #F9E4D4;
+    display: flex;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    background-image: url(../img/productos/Top.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card-imagen .letrero{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 2;
+}
+.card-imagen .letrero::before{
+    content: 'Oferta';
+    position: absolute;
+    width: 150%;
+    height: 30px;
+    background: rgb(255, 0, 0);
+    transform: rotate(-45deg) translateY(-20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 0.1em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/*.card-imagen .letrero::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #c90000;
+    box-shadow: 120px -120px #aa0d0d;
+    z-index: -1;
+}*/
+
+/*=============Información del Producto=============*/
+
+.card-info{
+    width: 100%;
+    background-color: #9c0f48;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.card-info h2{
+    margin: 5%;
+    margin-top: 10%;
+    color: #F9E4D4;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.card-info h4{
+    font-size: 15px;
+    margin-left: 10px;
+    color: #F9E4D4;
+}
+.card-info .size{
+    display: flex;
+    margin-left: -10px;
+    gap: 4%;
+}
+.card-info ul li{
+    width: 30px;
+    color: #F9E4D4;
+    list-style: none;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #F9E4D4;
+    font-weight: bold;
+}
+.card-info .precio{
+    width: 100%;
+}
+.card-info .precio h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.card-info .precio a{
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+}
+.card-info .precio a h1{
+    margin: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    color: #F9E4D4;
+    border: 1px solid #F9E4D4;
+    text-transform: uppercase;
+}
+
+/*==========Hovers=============*/
+
+.card-info .precio h1:hover{
+    transition: 0.5s;
+    background: #F9E4D4;
+    color: #470D21;
+}
+.card-info ul li:hover{
+    background-color: #F9E4D4;
+    color: #470D21;
+}
+.card-temporada:hover{
+    width: 430px;
+}
+.card-producto:hover{
+    width: 430px;
+}
+.of:hover{
+    margin-right: 15%;
+    transition: 0.5s;
+}
+.of1:hover{
+    margin-left: -10%;
+    transition: 0.5s;
+}
+
+/*-----------------------------PRODUCTOS----------------------------*/
+
+.titulo-producto{
+    text-align: center;
+    color: #470D21;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.cards-productos{
+    width: 100%;
+    height: 100%;
+}
+.card-producto{
+    width: 250px;
+    height: 280px;
+    overflow: hidden;
+    display: flex;
+    background: black;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+.cards-imagen{
+    min-width: 250px;
+    border-radius: 20px 0 0 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #F9E4D4;
+    display: flex;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+}
