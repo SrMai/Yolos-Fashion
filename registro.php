@@ -62,13 +62,13 @@
                     <form action="" method="post">
                         <div class="datos">
                             <div class="nombre">
-                                <input type="text" class="nom-input" name="firstname" id="firstName"
+                                <input type="text" class="nom-input" name="nombre" id="nombre"
                                     placeholder="Nombre" />
                                 <?php echo $fNameEmptyErr; ?>
                                 <?php echo $f_NameErr; ?>
                             </div>
                             <div class="apellido">
-                                <input type="text" class="ape-input" name="lastname" id="lastName"
+                                <input type="text" class="ape-input" name="apellido" id="apellido"
                                     placeholder="Apellido" />
                                 <?php echo $l_NameErr; ?>
                                 <?php echo $lNameEmptyErr; ?>
@@ -83,7 +83,7 @@
                         </div>
                         <div class="numero">
                             <i class="fa-solid fa-phone"></i>
-                            <input type="text" class="user-input" name="mobilenumber" id="mobilenumber" placeholder="Numero" />
+                            <input type="tel" class="user-input" name="mobilenumber" id="mobilenumber" placeholder="Numero" />
                             <?php echo $_mobileErr; ?>
                             <?php echo $mobileEmptyErr; ?>
                         </div>

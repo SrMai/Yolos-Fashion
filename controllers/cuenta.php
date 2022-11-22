@@ -1,6 +1,6 @@
 <?php
 include('config/db.php');
-$sqlQuery = mysqli_query($connection, "SELECT * FROM users WHERE email = 'carlosadrian.cg2@gmail.com' ");
+$sqlQuery = mysqli_query($connection, "SELECT * FROM users WHERE email = 'diego@gmail.com' ");
 $countRow = mysqli_num_rows($sqlQuery);
 while($rowData = mysqli_fetch_array($sqlQuery)){
     $_SESSION['firstname'] = $rowData["firstname"];

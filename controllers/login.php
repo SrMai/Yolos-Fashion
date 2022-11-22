@@ -41,7 +41,7 @@
                     $is_active     = $row['is_active'];
                 }
 
-                $password = password_verify($password_signin, $pass_word);
+                $password = $pass_word;
 
                 if($email_signin == $email && $password_signin == $password) {
                    header("Location: cuenta.php");
