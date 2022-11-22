@@ -110,10 +110,10 @@
       <div class="row">
         <div class="col-md-12"><h1 class="Titulo_categorias">Categorias</h1></div>
       </div>
-      <div class="cards-categorias justify-content-center">
+      <div class="cards-categorias justify-content-center ">
         <div class="row p-3">    
 
-          <div class="col-md-3">
+          <div class="col-md-3 m-3">
             <div class="card-categoria">
               <a href="#blusa" class="categorias">
                 <i class="fas fa-tshirt"></i>
@@ -122,7 +122,7 @@
             </div>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-md-3 m-3">
             <div class="card-categoria">
               <a href="#Vestido">
                 <i class="fas fa-tshirt"></i>
@@ -131,7 +131,7 @@
             </div>
           </div>
           
-          <div class="col-md-3">
+          <div class="col-md-3 m-3">
             <div class="card-categoria">
               <a href="#Sudadera">
                 <i class="fas fa-tshirt"></i>
@@ -140,7 +140,7 @@
             </div>
           </div>
         
-          <div class="col-md-3">
+          <div class="col-md-3 m-3">
             <div class="card-categoria">
               <a href="#Mezclilla">
                 <i class="fas fa-tshirt"></i>
@@ -161,7 +161,7 @@
       <div class="row"><h1 class="titulo-ofertas">Ofertas de Temporada</h1></div>
       <div class="cards-ofertas justify-content-center">
         <div class="row justify-content-evenly">
-          <div class="col-md-3 of">
+          <div class="col-md-3 of m-3">
             <div class="card-temporada">
               <div class="card-imagen">
                 <div class="letrero"></div>               
@@ -182,7 +182,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 of" >
+          <div class="col-md-3 of m-3" >
             <div class="card-temporada">
               <div class="card-imagen" style="background-image:url(assets/img/mercancia/Camisa8.jpg);">
                 <div class="letrero"></div>                
@@ -203,7 +203,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 of1">
+          <div class="col-md-3 of1 m-3">
             <div class="card-temporada">
               <div class="card-imagen" style="background-image:url(assets/img/mercancia/Vestido10.jpg);">
                 <div class="letrero"></div>                
@@ -238,7 +238,7 @@
         <!-- Productos: Blusas -->
         <div class="blusas" id="blusa">
           <div class="row justify-content-evenly p-3">
-            <div class="col-md-3 of">
+            <div class="col-md-3 of m-3">
               <div class="card-producto">
                 <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Blusa1.jpg);"></div>
                 <div class="card-info">
@@ -257,7 +257,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3 of">
+            <div class="col-md-3 of m-3">
               <div class="card-producto">
                 <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Blusa3.jpg);"></div>
                 <div class="card-info">
@@ -276,7 +276,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3 of1">
+            <div class="col-md-3 of1 m-3">
               <div class="card-producto">
                 <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Blusa4.jpg);"></div>
                 <div class="card-info">
@@ -297,7 +297,7 @@
             </div>
           </div>
           <div class="row justify-content-evenly p-3">
-            <div class="col-md-3 of">
+            <div class="col-md-3 of m-3">
               <div class="card-producto">
                 <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Blusa10.jpg);"></div>
                 <div class="card-info">
@@ -316,7 +316,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3 of">
+            <div class="col-md-3 of m-3">
               <div class="card-producto">
                 <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Blusa5.jpg);"></div>
                 <div class="card-info">
@@ -335,7 +335,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3 of1">
+            <div class="col-md-3 of1 m-3">
               <div class="card-producto">
                 <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Blusa6.jpg);"></div>
                 <div class="card-info">
@@ -356,7 +356,7 @@
             </div>
           </div>
           <div class="row justify-content-evenly p-3">
-            <div class="col-md-3 of">
+            <div class="col-md-3 of m-3">
               <div class="card-producto">
                 <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Blusa7.jpg);"></div>
                 <div class="card-info">
@@ -375,7 +375,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3 of">
+            <div class="col-md-3 of m-3">
               <div class="card-producto">
                 <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Blusa8.jpg);"></div>
                 <div class="card-info">
@@ -394,7 +394,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3 of1">
+            <div class="col-md-3 of1 m-3">
               <div class="card-producto">
                 <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Blusa9.jpg);"></div>
                 <div class="card-info">
@@ -417,7 +417,7 @@
         </div>
         <!-- Productos: Camisa -->
         <div class="row justify-content-evenly p-3">
-          <div class="col-md-3 of">
+          <div class="col-md-3 of m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/camisa.jpeg);"></div>
               <div class="card-info">
@@ -436,7 +436,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 of">
+          <div class="col-md-3 of m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Camisa4.jpg);"></div>
               <div class="card-info">
@@ -455,7 +455,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 of1">
+          <div class="col-md-3 of1 m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Camisa2.jpg);"></div>
               <div class="card-info">
@@ -476,7 +476,7 @@
           </div>
         </div>
         <div class="row justify-content-evenly p-3">
-          <div class="col-md-3 of">
+          <div class="col-md-3 of m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Camisa5.jpg);"></div>
               <div class="card-info">
@@ -495,7 +495,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 of">
+          <div class="col-md-3 of m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Camisa1.jpg);"></div>
               <div class="card-info">
@@ -514,7 +514,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 of1">
+          <div class="col-md-3 of1 m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Camisa3.jpg);"></div>
               <div class="card-info">
@@ -535,7 +535,7 @@
           </div>
         </div>
         <div class="row justify-content-evenly p-3">
-          <div class="col-md-3 of">
+          <div class="col-md-3 of m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Camisa6.jpg);"></div>
               <div class="card-info">
@@ -554,7 +554,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 of">
+          <div class="col-md-3 of m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Camisa7.jpg);"></div>
               <div class="card-info">
@@ -573,7 +573,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 of1">
+          <div class="col-md-3 of1 m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Camisa9.jpg);"></div>
               <div class="card-info">
@@ -596,7 +596,7 @@
         <!-- Productos: Pantalones -->
         <div class="Pantalones" id="Mezclilla"></div>
         <div class="row justify-content-evenly p-3">
-          <div class="col-md-3 of">
+          <div class="col-md-3 of m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Pantalon3.jpg);"></div>
               <div class="card-info">
@@ -615,7 +615,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 of">
+          <div class="col-md-3 of m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Pantalon.jpg);"></div>
               <div class="card-info">
@@ -634,7 +634,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 of1">
+          <div class="col-md-3 of1 m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Pantalon2.jpg);"></div>
               <div class="card-info">
@@ -655,7 +655,7 @@
           </div>
         </div>
         <div class="row justify-content-evenly p-3">
-          <div class="col-md-3 of">
+          <div class="col-md-3 of m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Pantalon4.jpg);"></div>
               <div class="card-info">
@@ -674,7 +674,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 of">
+          <div class="col-md-3 of m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Pantalon5.jpg);"></div>
               <div class="card-info">
@@ -693,7 +693,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 of1">
+          <div class="col-md-3 of1 m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Pantalon6.jpg);"></div>
               <div class="card-info">
@@ -714,7 +714,7 @@
           </div>
         </div>
         <div class="row justify-content-evenly p-3">
-          <div class="col-md-3 of">
+          <div class="col-md-3 of m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Pantalon7.jpg);"></div>
               <div class="card-info">
@@ -733,7 +733,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 of">
+          <div class="col-md-3 of m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Pantalon8.jpg);"></div>
               <div class="card-info">
@@ -752,7 +752,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 of1">
+          <div class="col-md-3 of1 m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Pantalon9.jpg);"></div>
               <div class="card-info">
@@ -775,7 +775,7 @@
         <!-- Productos: Sudaderas -->
         <div class="sudadera" id="Sudadera"></div>
         <div class="row justify-content-evenly p-3">
-          <div class="col-md-3 of">
+          <div class="col-md-3 of m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Sudadera.jpg);"></div>
               <div class="card-info">
@@ -794,7 +794,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 of">
+          <div class="col-md-3 of m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/sudadera.jpeg);"></div>
               <div class="card-info">
@@ -813,7 +813,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 of1">
+          <div class="col-md-3 of1 m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/sudadera2.jpeg);"></div>
               <div class="card-info">
@@ -834,7 +834,7 @@
           </div>
         </div>        
         <div class="row justify-content-evenly p-3">
-          <div class="col-md-3 of">
+          <div class="col-md-3 of m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Sudadera2.jpg);"></div>
               <div class="card-info">
@@ -853,7 +853,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 of">
+          <div class="col-md-3 of m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/sudadera3.jpeg);"></div>
               <div class="card-info">
@@ -872,7 +872,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 of1">
+          <div class="col-md-3 of1 m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Sudadera3.jpg);"></div>
               <div class="card-info">
@@ -893,7 +893,7 @@
           </div>
         </div>  
         <div class="row justify-content-evenly p-3">
-          <div class="col-md-3 of">
+          <div class="col-md-3 of m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Sudadera4.jpg);"></div>
               <div class="card-info">
@@ -912,7 +912,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 of">
+          <div class="col-md-3 of m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Sudadera5.jpg);"></div>
               <div class="card-info">
@@ -931,7 +931,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 of1">
+          <div class="col-md-3 of1 m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Sudadera6.jpg);"></div>
               <div class="card-info">
@@ -954,7 +954,7 @@
         <!-- Productos: Vestidos -->
         <div class="Vestido" id="Vestido"></div>
         <div class="row justify-content-evenly p-3">
-          <div class="col-md-3 of">
+          <div class="col-md-3 of m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Vestido.jpg);"></div>
               <div class="card-info">
@@ -973,7 +973,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 of">
+          <div class="col-md-3 of m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/vestido.jpeg);"></div>
               <div class="card-info">
@@ -992,7 +992,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 of1">
+          <div class="col-md-3 of1 m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Vestido2.jpg);"></div>
               <div class="card-info">
@@ -1013,7 +1013,7 @@
           </div>
         </div>  
         <div class="row justify-content-evenly p-3">
-          <div class="col-md-3 of">
+          <div class="col-md-3 of m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Vestido3.jpg);"></div>
               <div class="card-info">
@@ -1032,7 +1032,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 of">
+          <div class="col-md-3 of m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/vestido3.jpeg);"></div>
               <div class="card-info">
@@ -1051,7 +1051,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 of1">
+          <div class="col-md-3 of1 m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Vestido4.jpg);"></div>
               <div class="card-info">
@@ -1072,7 +1072,7 @@
           </div>
         </div>  
         <div class="row justify-content-evenly p-3">
-          <div class="col-md-3 of">
+          <div class="col-md-3 of m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Vestido5.jpg);"></div>
               <div class="card-info">
@@ -1091,7 +1091,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 of">
+          <div class="col-md-3 of m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Vestido6.jpg);"></div>
               <div class="card-info">
@@ -1110,7 +1110,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 of1">
+          <div class="col-md-3 of1 m-3">
             <div class="card-producto">
               <div class="cards-imagen" style="background-image:url(assets/img/mercancia/Vestido7.png);"></div>
               <div class="card-info">
