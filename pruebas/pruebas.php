@@ -10,35 +10,29 @@
     {
         echo "<h3>No se ha podido conectar PHP - MySQL, verifique sus datos.</h3><hr><br>";
     }
-    else
-    {
-        echo "<h3>Conexion Exitosa PHP - MySQL</h3><hr><br>";
-    }
     
     /* ejemplo de una consulta */
 
-    $var_consulta= "select * from users";
+    $var_consulta= "select * from compras";
     $var_resultado = $obj_conexion->query($var_consulta);
 
     if($var_resultado->num_rows>0)
       {
         echo"<table border='1' align='center'>
          <tr bgcolor='#E6E6E6'>
-            <th>firstname</th>
-            <th>edad</th>
-            <th>email</th>
-            <th>mobilenumber</th>
-            <th>password</th>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Direccion</th>
+            <th>Total</th>
         </tr>";
     
     while ($var_fila=$var_resultado->fetch_array())
     {
         echo "<tr>
-        <td>".$var_fila["firstname"]."</td>";
-        echo "<td>".$var_fila["edad"]."</td>";
-        echo "<td>".$var_fila["email"]."</td>";
-        echo "<td>".$var_fila["mobilenumber"]."</td>";
-        echo "<td>".$var_fila["password"]."</td></tr>";
+        <td>".$var_fila["Producto"]."</td>";
+        echo "<td>".$var_fila["Precio"]."</td>";
+        echo "<td>".$var_fila["Direccion"]."</td>";
+        echo "<td>".$var_fila["Total"]."</td></tr>";
      }
     }
     else

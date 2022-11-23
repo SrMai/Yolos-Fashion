@@ -1,7 +1,6 @@
 <?php
    
     include('config/db.php');
-
     global $wrongPwdErr, $accountNotExistErr, $emailPwdErr, $verificationRequiredErr, $email_empty_err, $pass_empty_err;
 
     if(isset($_POST['login'])) {

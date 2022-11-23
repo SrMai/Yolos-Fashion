@@ -25,7 +25,6 @@ $var_resultado = $db_connection->query($var_consulta);
 if (!$var_resultado) {
    die('Error: ' . mysql_error());
 }
-header('Location: login.php');
  
 /*
     include('config/db.php');
