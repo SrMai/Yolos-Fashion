@@ -61,6 +61,7 @@ a .cat{
 .cards-categorias{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     width: 100%;
     height: 100%; 
 }
@@ -68,6 +69,7 @@ a .cat{
     display: flex;
     width: 200px;
     height: 90px;
+    margin: 10px;
     padding-left: 10px;
     border-radius: 10px;
     background-color: #9c0f48;
